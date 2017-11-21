@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MARTRIX</Machine>
+    <WindowsUser>marti</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c5998ae9-1fef-403b-bdeb-fae17bf3942b</PackageIdentityName>
+    <PackageIdentityPublisher>CN=marti</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>A419F65580ADF5379950DB6D057D4B085A7148377A770F98946A23E927D21173</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c5998ae9-1fef-403b-bdeb-fae17bf3942b_1.0.0.0_neutral__m1eq83gekd84y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c5998ae9-1fef-403b-bdeb-fae17bf3942b_m1eq83gekd84y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c5998ae9-1fef-403b-bdeb-fae17bf3942b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=marti</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-17T09:44:37.391</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\bin\Debug\ResultsTracker.Windows.exe">
+      <PackagePath>ResultsTracker.Windows.exe</PackagePath>
+      <Modified>2016-10-17T13:59:10.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2014-12-10T15:08:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2014-12-10T15:08:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.3.13.5\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.dll</PackagePath>
+      <Modified>2016-09-16T14:16:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.IdentityModel.Clients.ActiveDirectory.3.13.5\lib\netcore45\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll">
+      <PackagePath>Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll</PackagePath>
+      <Modified>2016-09-16T14:16:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\Microsoft.OData.Client.dll">
+      <PackagePath>Microsoft.OData.Client.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Core.dll">
+      <PackagePath>Microsoft.OData.Core.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Edm.dll">
+      <PackagePath>Microsoft.OData.Edm.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.ProxyExtensions.1.0.35\lib\portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10\Microsoft.OData.ProxyExtensions.dll">
+      <PackagePath>Microsoft.OData.ProxyExtensions.dll</PackagePath>
+      <Modified>2015-05-21T14:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Office365.Discovery.1.0.22\lib\portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81\Microsoft.Office365.Discovery.dll">
+      <PackagePath>Microsoft.Office365.Discovery.dll</PackagePath>
+      <Modified>2014-10-29T08:22:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Office365.OutlookServices.1.0.41.0\lib\portable-net45+win+wpa81+wp80\Microsoft.Office365.OutlookServices.Portable.dll">
+      <PackagePath>Microsoft.Office365.OutlookServices.Portable.dll</PackagePath>
+      <Modified>2015-11-24T05:22:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Office365.SharePoint.1.0.22\lib\portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81\Microsoft.Office365.SharePoint.Portable.dll">
+      <PackagePath>Microsoft.Office365.SharePoint.Portable.dll</PackagePath>
+      <Modified>2014-10-29T08:22:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.Spatial.dll">
+      <PackagePath>Microsoft.Spatial.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T20:06:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.8.1.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar.dll">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar.dll</PackagePath>
+      <Modified>2015-01-15T20:18:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\de\Microsoft.OData.Client.resources.dll">
+      <PackagePath>de\Microsoft.OData.Client.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\es\Microsoft.OData.Client.resources.dll">
+      <PackagePath>es\Microsoft.OData.Client.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\fr\Microsoft.OData.Client.resources.dll">
+      <PackagePath>fr\Microsoft.OData.Client.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\it\Microsoft.OData.Client.resources.dll">
+      <PackagePath>it\Microsoft.OData.Client.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\ja\Microsoft.OData.Client.resources.dll">
+      <PackagePath>ja\Microsoft.OData.Client.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\ko\Microsoft.OData.Client.resources.dll">
+      <PackagePath>ko\Microsoft.OData.Client.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\ru\Microsoft.OData.Client.resources.dll">
+      <PackagePath>ru\Microsoft.OData.Client.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\zh-Hans\Microsoft.OData.Client.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.OData.Client.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Client.6.13.0\lib\portable-net45+wp8+win8+wpa\zh-Hant\Microsoft.OData.Client.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.OData.Client.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\de\Microsoft.OData.Core.resources.dll">
+      <PackagePath>de\Microsoft.OData.Core.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\es\Microsoft.OData.Core.resources.dll">
+      <PackagePath>es\Microsoft.OData.Core.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\fr\Microsoft.OData.Core.resources.dll">
+      <PackagePath>fr\Microsoft.OData.Core.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\it\Microsoft.OData.Core.resources.dll">
+      <PackagePath>it\Microsoft.OData.Core.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\ja\Microsoft.OData.Core.resources.dll">
+      <PackagePath>ja\Microsoft.OData.Core.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\ko\Microsoft.OData.Core.resources.dll">
+      <PackagePath>ko\Microsoft.OData.Core.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\ru\Microsoft.OData.Core.resources.dll">
+      <PackagePath>ru\Microsoft.OData.Core.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hans\Microsoft.OData.Core.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.OData.Core.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Core.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hant\Microsoft.OData.Core.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.OData.Core.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\de\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>de\Microsoft.OData.Edm.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\es\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>es\Microsoft.OData.Edm.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\fr\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>fr\Microsoft.OData.Edm.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\it\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>it\Microsoft.OData.Edm.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\ja\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>ja\Microsoft.OData.Edm.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\ko\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>ko\Microsoft.OData.Edm.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\ru\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>ru\Microsoft.OData.Edm.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hans\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.OData.Edm.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.OData.Edm.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hant\Microsoft.OData.Edm.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.OData.Edm.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\de\Microsoft.Spatial.resources.dll">
+      <PackagePath>de\Microsoft.Spatial.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\es\Microsoft.Spatial.resources.dll">
+      <PackagePath>es\Microsoft.Spatial.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\fr\Microsoft.Spatial.resources.dll">
+      <PackagePath>fr\Microsoft.Spatial.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\it\Microsoft.Spatial.resources.dll">
+      <PackagePath>it\Microsoft.Spatial.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\ja\Microsoft.Spatial.resources.dll">
+      <PackagePath>ja\Microsoft.Spatial.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\ko\Microsoft.Spatial.resources.dll">
+      <PackagePath>ko\Microsoft.Spatial.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\ru\Microsoft.Spatial.resources.dll">
+      <PackagePath>ru\Microsoft.Spatial.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hans\Microsoft.Spatial.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Spatial.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\Microsoft.Spatial.6.13.0\lib\portable-net40+sl5+wp8+win8+wpa\zh-Hant\Microsoft.Spatial.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Spatial.resources.dll</PackagePath>
+      <Modified>2015-07-21T00:00:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\Assets\img_user_profile.png">
+      <PackagePath>Assets\img_user_profile.png</PackagePath>
+      <Modified>2016-10-12T17:46:11.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T19:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T19:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T19:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T19:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\bin\Debug\ResultsTracker.Windows.xr.xml">
+      <PackagePath>ResultsTracker.Windows.xr.xml</PackagePath>
+      <Modified>2016-10-17T13:55:56.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-10-17T09:42:56.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\bin\Debug\StandardStyles.xbf">
+      <PackagePath>StandardStyles.xbf</PackagePath>
+      <Modified>2016-10-14T05:52:10.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\bin\Debug\Views\CalendarPage.xbf">
+      <PackagePath>Views\CalendarPage.xbf</PackagePath>
+      <Modified>2016-10-14T11:39:21.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\bin\Debug\Views\LoginPage.xbf">
+      <PackagePath>Views\LoginPage.xbf</PackagePath>
+      <Modified>2016-10-17T13:55:58.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+      <Modified>2016-10-17T13:55:58.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.8.1.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\WinRTXamlToolkit.Controls.Calendar.xr.xml">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\WinRTXamlToolkit.Controls.Calendar.xr.xml</PackagePath>
+      <Modified>2015-01-15T20:18:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.8.1.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\Calendar.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\Calendar.xbf</PackagePath>
+      <Modified>2015-01-15T20:18:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.8.1.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarButton.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarButton.xbf</PackagePath>
+      <Modified>2015-01-15T20:18:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.8.1.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarDayButton.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarDayButton.xbf</PackagePath>
+      <Modified>2015-01-15T20:18:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.8.1.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarItem.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarItem.xbf</PackagePath>
+      <Modified>2015-01-15T20:18:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.8.1.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Themes\Generic.xbf</PackagePath>
+      <Modified>2015-01-15T20:18:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marti\documents\visual studio 2015\Projects\ResultsTracker\ResultsTracker\ResultsTracker.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-10-17T14:02:29.730</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

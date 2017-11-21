@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>3403f47c-dbb5-4a87-a870-f8c8815f4a57</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ResultsTracker</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\BooleanNegationConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ObservableDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\OppositeBoolConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\MeetingItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ModelItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\ErrorBucket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\FrameExtender.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\FrameworkElementExtender.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\JsonExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\JsonObjectExtender.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\PageExtender.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\RTPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\RTRuntime.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Objects\ViewModelAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Base\CommandExecutionContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Base\DelegateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Base\IViewModeHostExtender.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Base\IViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Base\IViewModelHost.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Base\NavigateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Base\ViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Instances\HomeViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Instances\Interfaces\IHomeViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\Instances\LoginViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)StandardStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
+  </ItemGroup>
+</Project>

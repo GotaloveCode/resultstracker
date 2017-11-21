@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="ResultsTracker.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ResultsTracker"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="1" MaxWidth="320">
+            <TextBox Margin="0,45,0,10" PlaceholderText="Email" x:Uid="Email" Text="{Binding Email}" InputScope="EmailSmtpAddress"/>
+            <PasswordBox Margin="0,0,0,15" PlaceholderText="Password" x:Uid="Password" Password="{Binding Password}" />
+            <Button Margin="0,0,0,10" Content="SIGN IN" BorderBrush="Black" x:Uid="SignIn" Command="{Binding SignInCommand}" Background="Transparent" HorizontalAlignment="Stretch" Padding="12,4,12,6"/>
+            <HyperlinkButton Content="Forgot password?Click to reset" x:Uid="Forgot" NavigateUri="{Binding ForgotUri}"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

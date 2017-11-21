@@ -1,0 +1,14 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ResultsTracker">
+    <SolidColorBrush x:Key="TextBlue" Color="#75a9f9"/>
+    <SolidColorBrush x:Key="MyBlue" Color="#2b2d42"/>    
+    <SolidColorBrush x:Key="MyGrey" Color="#ebebeb"/>
+    <Style TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontSize" Value="14"/>        
+    </Style>
+    
+</ResourceDictionary>
+
